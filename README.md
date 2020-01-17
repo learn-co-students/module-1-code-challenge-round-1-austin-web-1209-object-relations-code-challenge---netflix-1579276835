@@ -26,7 +26,7 @@ Build out all of the methods listed in the deliverables. The methods are listed 
 
 **Remember!** This code challenge does not have tests. You cannot run `rspec` and you cannot run `learn`. You'll need to create your own sample instances so that you can try out your code on your own. Make sure your associations and methods work in the console before submitting.
 
-We've provided you with a tool that you can use to test your code. To use it, run `ruby tools/console.rb` from the command line. This will start a `pry` session with your classes defined. You can test out the methods that you write here. You can add code to the `tools/console.rb` file to define variables and create sample instances of your objects.
+We've provided you with a tool that you can use to test your code. To use it, run `ruby tools/console.rb` from the command line. This will start a `pry` session with your classes defined. You can test out the methods that you write here. You can add code to the `revtools/console.rb` file to define variables and create sample instances of your objects.
 
 Writing error-free code is more important than completing all of the deliverables listed - prioritize writing methods that work over writing more methods that don't work. You should test your code in the console as you write.
 
@@ -84,26 +84,26 @@ Some of the methods listed are provided to you in the starter code. You should c
 
 #### Viewer
 
-- `Viewer#reviews`
-  - returns an array of `Review` instances associated with the `Viewer` instance.
-- `Viewer#reviewed_movies`
-  - returns an array of `Movie` instances reviewed by the `Viewer` instance.
+<!-- - `Viewer#reviews`
+  - returns an array of `Review` instances associated with the `Viewer` instance. -->
+<!-- - `Viewer#reviewed_movies`
+  - returns an array of `Movie` instances reviewed by the `Viewer` instance. -->
 
 #### Movie
 
-- `Movie#reviews`
-  - returns an array of all the `Review` instances for the `Movie`.
-- `Movie#reviewers`
-  - returns an array of all of the `Viewer` instances that reviewed the `Movie`.
+<!-- - `Movie#reviews`
+  - returns an array of all the `Review` instances for the `Movie`. -->
+<!-- - `Movie#reviewers`
+  - returns an array of all of the `Viewer` instances that reviewed the `Movie`. -->
 
 ### Aggregate and Association Methods
 
 #### Viewer
 
-- `Viewer#reviewed_movie?(movie)`
+<!-- - `Viewer#reviewed_movie?(movie)`
   - a `Movie` instance is the only argument
-  - returns `true` if the `Viewer` has reviewed this `Movie` (if there is a `Review` instance that has this `Viewer` and `Movie`), returns `false` otherwise
-- `Viewer#rate_movie(movie, rating)`
+  - returns `true` if the `Viewer` has reviewed this `Movie` (if there is a `Review` instance that has this `Viewer` and `Movie`), returns `false` otherwise -->
+- `Viewe`
   - a `Movie` instance and a rating (number) are passed in as arguments
   - if the `Viewer` instance and the passed `Movie` instance are _not_ already associated, this method should create a new `Review` instance
   - if this `Viewer` has already reviewed this `Movie`, assigns the new rating to the existing `Review` instance
